@@ -3,8 +3,6 @@ const curso = {
     dificultad: "Intermedio",
 }
 
-
-
 console.log("Hola Mundo desde mi" +curso.nombre); /* muestra el objeto curso */
 
 const array = [1, 2, 3, 4, 5]; /* crea un array */

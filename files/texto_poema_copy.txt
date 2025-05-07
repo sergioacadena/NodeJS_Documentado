@@ -1,0 +1,4 @@
+Hola Mundo desde mi archivo de textoEn el mundo de código, Git es rey,
+con ramas que crecen, avanzan sin ley.
+Comandos en consola, magia sin fin,
+commit, push y pull, el ciclo sin fin.
