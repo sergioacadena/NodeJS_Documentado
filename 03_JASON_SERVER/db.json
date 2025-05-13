@@ -1,0 +1,103 @@
+{
+  "profesores": [
+    {
+      "name": "Sergio A  ",
+      "appelido": "Cadena",
+      "materias": [
+        {
+          "nombre": "NodeJS "
+        },
+        {
+          "nombre": "JavaScript"
+        },
+        {
+          "nombre": "Python"
+        }
+      ],
+      "id": "76a3"
+    },
+    {
+      "name": "Susana ",
+      "appelido": "Albarracín",
+      "materias": [
+        {
+          "nombre": "Química "
+        },
+        {
+          "nombre": "Física"
+        },
+        {
+          "nombre": "TICS"
+        },
+        {
+          "nombre": "BIOLOGÍA"
+        }
+      ],
+      "id": "b5b6"
+    }
+  ],
+  "alumnos": [
+    {
+      "name": "Sergio A  ",
+      "appelido": "Cadena",
+      "promedio": 4.5,
+      "id": "f0aa"
+    },
+    {
+      "name": "Andres  ",
+      "appelido": "Ramirez",
+      "promedio": 3.6,
+      "id": "4a5f"
+    },
+    {
+      "name": "Juan  ",
+      "appelido": "Pérez",
+      "promedio": 4.8,
+      "id": "f07f"
+    },
+    {
+      "name": "Ana  ",
+      "appelido": "García",
+      "promedio": 4.2,
+      "id": "5a55"
+    },
+    {
+      "name": "Luis  ",
+      "appelido": "Martínez",
+      "promedio": 3.9,
+      "id": "26ee"
+    },
+    {
+      "id": "01ce",
+      "name": "George  ",
+      "appelido": "Orwell",
+      "promedio": 5
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "NodeJS desde cero ",
+      "duración": "3 meses",
+      "nivel": "Intermedio",
+      "id": "9b6d"
+    },
+    {
+      "nombre": "JavaScript desde cero ",
+      "duración": "3 meses",
+      "nivel": "Intermedio",
+      "id": "3fd2"
+    },
+    {
+      "nombre": "Python desde cero ",
+      "duración": "3 meses",
+      "nivel": "Intermedio",
+      "id": "a07e"
+    },
+    {
+      "nombre": "Java desde cero ",
+      "duración": "3 meses",
+      "nivel": "Intermedio",
+      "id": "150a"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "03_jason_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "dev": "nodemon src/index.js",
+    "build": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sergio A. Cadena",
+  "type": "module",
+  "license": "ISC",
+  "description": "Servidor con información de cursos",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
