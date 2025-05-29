@@ -1,6 +1,7 @@
-const express = require('express'); /* libreria de un servidor local llamado express */
-const path = require('path'); /* path es una función de node para crear rutas entre archivos y carpetas del proyecto */
-const startServer = (options) => { /* función para iniciar el servidor con las opciones que se le pasen */
+import express from 'express'; /* libreria de un servidor local llamado express */
+import path from 'path'; /* path es una función de node para crear rutas entre archivos y carpetas del proyecto */
+
+export const startServer = (options) => { /* función para iniciar el servidor con las opciones que se le pasen */
     const {port, public_path = 'public' } = options /* destructuración de las opciones que recibe la función, si no se pasa public_path se usa por defecto 'public' */
     // Creamos el servidor express en la variable app
     const app = express();
@@ -21,6 +22,6 @@ const startServer = (options) => { /* función para iniciar el servidor con las 
 }
 
 
-module.exports = {
+/* module.exports = {
     startServer,
-};
+}; */

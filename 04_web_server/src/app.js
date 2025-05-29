@@ -1,6 +1,8 @@
 
-const {envs} = require('./config/env');
-const {startServer} = require('./server/server');
+/* const {envs} = require('./config/env'); forma antigua de importar*/
+import {envs} from './config/env.js';
+/* const {startServer} = require('./server/server'); forma antigua de importar */
+import {startServer} from './server/server.js'; // Importamos la función startServer del módulo server
 // Importamos el módulo http
 
 
