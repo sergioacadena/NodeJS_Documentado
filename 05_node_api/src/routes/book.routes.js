@@ -3,10 +3,9 @@ Cada archivo dentro de esa carpeta representa un conjunto de caminos o endpoints
 para acceder a diferentes partes de tu aplicación. */
 const express = require('express'); // Importar express para crear un servidor web
 const router = express.Router(); // Crear un enrutador de Express para manejar las rutas
-const Book = require('../models/book.model'); // Importar el esquema del libro o la tabla de libros
+const Book = require('../models/book.model'); // Importar el esquema del libro o la tabla de libros BD
 
 /* MIDDLEWARE */
-
 // Middleware para analizar el cuerpo de las solicitudes en formato JSON
 const getBook = async (req, res, next) => {
     let book;
