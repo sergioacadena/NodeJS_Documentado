@@ -2,6 +2,17 @@
   "name": "proyecto-node",
   "version": "0.0.1",
   "description": "proyecto para aprender node",
+  "homepage": "https://github.com/sergioacadena/NodeJS_Documentado#readme",
+  "bugs": {
+    "url": "https://github.com/sergioacadena/NodeJS_Documentado/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioacadena/NodeJS_Documentado.git"
+  },
+  "license": "ISC",
+  "author": "Sergio A Cadena",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,21 +20,11 @@
     "build": "node src/index.js",
     "console": "echo 'hola Mundo desde Script'"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergioacadena/NodeJS_Documentado.git"
-  },
-  "author": "Sergio A Cadena",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sergioacadena/NodeJS_Documentado/issues"
-  },
-  "homepage": "https://github.com/sergioacadena/NodeJS_Documentado#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  },
   "dependencies": {
     "dotenv": "^16.5.0",
     "env-var": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
